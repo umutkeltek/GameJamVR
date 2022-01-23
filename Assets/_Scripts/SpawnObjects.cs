@@ -13,7 +13,7 @@ public class SpawnObjects : MonoBehaviour
     [SerializeField]private float maxSpawnTime;
     [SerializeField] float rotation;
     private void Update()
-    {   float spawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
+    {  
         if (ShouldSpawn())
         {
             Spawn();
